@@ -1,0 +1,44 @@
+Demonstrátor Úr az újévi fogadalmak jegyében elhatározta, hogy lefogyasztja a téli zsírpárnáit.
+Interneten kutatva rátalált néhány jógagyakorlatra, amiket egy gyakorlatok.json fájlba mentett ki.
+Sajnos a pohárköszöntők után már homályos, hogy melyik gyakorlatot hányszor csinálta,
+és egyáltalán elégette-e már annyi kalóriát, amennyi egy decemsejt sajtos pogácsa (450 kcal).
+
+Írjon egy feladat1 programot, ami:
+1. Bekéri a gyakorlat PONTOS nevét (case-sensitive!)
+2. Kiszámolja, hogy hány kalóriát éget el, ha annyiszor csinálja, ahányszor az "ismetles" mező mutatja
+4. Megmondja, hány ilyen sorozatot kell végeznie, hogy elérje a 450 kcal-t (felfelé kerekítve)
+
+
+írjon egy feladat2 programot, ami:
+1. Kilistázza az ÖSSZES gyakorlatot kalóriaégetés szerint csökkenő sorrendben (név + össz kalória)
+2. Írjon egy második funkciót is, ami megkeresi azt a gyakorlatot, amelyikkel a LEGKEVESEBB ismétlésszámmal lehet elérni legalább 450 kcal-t!
+
+
+Követelmények:
+- Használjon kivételkezelést a fájl olvasáshoz és a hibaüzenetekhez
+- List comprehension a gyakorlatok szűréséhez/feldolgozásához
+- sorted() függvény custom key-vel a rendezéshez
+
+
+>> python feladat1.py
+>> Adja meg a gyakorlat nevét:
+>> Hiba! Nem adott meg gyakorlat nevet!
+
+>> python feladat1.py
+>> Adja meg a gyakorlat nevét: Csúnya Macska
+>> Hiba! Nincs ilyen nevű gyakorlat!
+
+>> python feladat1.py
+>> Adja meg a gyakorlat nevét: Deszka póz
+>> Összes elégetett kalória egy sorozatban: 90 kcal
+>> A pogácsa elégetéséhez szükséges sorozatok száma: 5
+
+
+>> feladat2.py
+>> Összes gyakorlat kalóriaégetés szerint:
+>> 1. Széken ülés - 250 kcal
+>> 2. Harcos póz - 160 kcal
+>> ...
+>>
+>> Leghatékonyabb gyakorlat 450 kcal eléréséhez:
+>> gyakorlat neve - ? kcal sorozatonként, ? sorozat szükséges (összesen ? ismétlés)

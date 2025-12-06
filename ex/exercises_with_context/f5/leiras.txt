@@ -1,0 +1,32 @@
+## FELADAT 5: Az Elveszett Jelszó Rejtélye
+
+Demonstrátor Úr elfelejtette a laborrendszer jelszavát, de szerencsére feljegyezte a generálási szabályt!
+A jelszó a kedvenc számából (42), a keresztnevének hosszából és egy titkos kódból áll össze.
+
+A jelszogeneralas.txt fájlban van a leírás, hogy hogyan kell kiszámolni.
+
+Írjon egy feladat.py programot, ami:
+1. Beolvassa a jelszogeneralas.txt fájlt
+2. Kinyeri belőle a szükséges számokat és szavakat regex vagy split segítségével
+3. Alkalmazza a szabályokat:
+   - Kedvenc szám: minden 2. karaktere
+   - Keresztnév: NAGYBETŰS, fordított sorrend
+   - Titkos kód: csak a páros indexű karakterek
+4. Összefűzi őket a leírt módon
+5. Kiírja a végső jelszót
+
+
+Ha nem találja a fájlt:
+>> Hiba! A fájlnév fájl nem található!
+
+
+>> python feladat.py
+>> === Jelszó Visszafejtés ===
+>>
+>> Kedvenc szám feldolgozva: 2
+>> Keresztnév feldolgozva: RODNAS
+>> Titkos kód feldolgozva: PY3Z9
+>>
+>> Visszafejtett jelszó: 2_RODNAS_PY3Z9
+>>
+>> Próbálja ki ezt a jelszót a laborrendszerbe való belépéshez!

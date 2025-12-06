@@ -1,0 +1,64 @@
+Demonstrátor Úr ráfüggött a World of Warcraft-ra és már a 15. expansionban is aktívan raidelik.
+A guild vezetője kérte, hogy készítsen statisztikát a raid teljesítményükről.
+A raideket egy wow_raidek.json fájlba logolja.
+
+Írjon egy feladat6 programot numpy használatával, ami:
+1. Beolvassa a wow_raidek.json-t (kivételkezelés!)
+2. NumPy array-be teszi:
+   - A raid időket (percben)
+   - A boss-oknál elért DPS-t (damage per second)
+3. Kiszámolja RAID IDŐKRE:
+   - Átlagos raid idő
+   - Medián raid idő
+   - Szórás
+   - Teljes raid idő órákban
+   - Leghosszabb és legrövidebb raid
+4. Kiszámolja DPS STATISZTIKÁKRA:
+   - Átlagos DPS
+   - Medián DPS
+   - Maximum DPS (legjobb teljesítmény)
+   - Minimum DPS (legrosszabb teljesítmény)
+5. List comprehension-nel:
+   - Megszámolja a sikeres (boss_killed: true) és sikertelen raideket
+   - Megszámolja a 3+ órás "marathon" raideket
+   - Kilistázza azokat a boss neveket, ahol a DPS > 50000 volt
+
+Ha nem találja a fájlt:
+>> Hiba! A fájlnév fájl nem található!
+
+Formázza a kimenetet úgy, hogy az alábbit kapja:
+
+>> python feladat6.py
+>> Statisztikák:
+>>
+>> Összes raid: 12
+>>
+>> RAID IDŐ STATISZTIKÁK:
+>> - Átlagos raid idő: 124.17 perc (2.07 óra)
+>> - Medián raid idő: 115.00 perc
+>> - Szórás: 31.45 perc
+>> - Teljes raid idő: 24.83 óra (1490 perc)
+>>
+>> Legrövidebb raid: 85 perc (Vault of the Incarnates)
+>> Leghosszabb raid: 195 perc (Aberrus, the Shadowed Crucible)
+>>
+>> DPS STATISZTIKÁK:
+>> - Átlagos DPS: 48,250.00
+>> - Medián DPS: 47,500.00
+>> - Minimum DPS: 35,000 (Legrosszabb nap... Senki sem pullolt jól)
+>> - Maximum DPS: 68,000 (LEGEND! Mindenki büszke volt!)
+>>
+>> TELJESÍTMÉNY:
+>> - Sikeres boss kill-ek: 9 (75.00%)
+>> - Wipe-ok: 3 (25.00%)
+>> - Win rate: 75.00%
+>>
+>> "Marathon" raidek (180+ perc): 2
+>>
+>> High DPS raidek (50,000+ DPS):
+>> - Eranog (Vault of the Incarnates) - 52,000 DPS
+>> - Nymue (Amirdrassil) - 55,000 DPS
+>> - Tindral Sageswift (Amirdrassil) - 58,000 DPS
+>> - Igira the Cruel (Amirdrassil) - 68,000 DPS
+>>
+>> FIGYELMEZTETÉS: 24.83 óra raidelt az elmúlt héten.

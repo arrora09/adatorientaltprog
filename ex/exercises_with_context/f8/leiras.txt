@@ -1,0 +1,36 @@
+## FELADAT 8: Clickbait Cím Generátor
+
+Demonstrátor Úr rájött, hogy a YouTube algoritmus szereti a clickbait címeket.
+Készítsen egy programot, ami random módon generál clickbait címeket a videóihoz!
+
+A cimek_adatok.json fájlban vannak a cím komponensek.
+
+Írjon egy feladat.py programot, ami:
+1. Beolvassa a cimek_adatok.json-t
+2. Van egy generalCim() függvénye, ami random összerak egy címet a komponensekből:
+   - [SOKKOLÓ] vagy [TILOS] vagy [DURVA] prefix
+   - Egy főnév
+   - Egy ige
+   - Egy következmény
+   - "| Python Tutorial" suffix
+3. Van egy tesztGeneralas(n) függvény, ami n darab EGYEDI címet generál (set használat!)
+4. A parancssorból megadható a generálandó címek száma (default: 5)
+
+Ha nem találja a fájlt:
+>> Hiba! A cimek_adatok.json fájl nem található!
+
+
+>> python feladat.py
+>> Generált címek (5 db):
+>>
+>> 1. [SOKKOLÓ] A ciklus elrontja a kódodat és A TANÁROD IS MEGDÖBBEN! | Python Tutorial
+>> 2. [DURVA] A változó megváltoztatja az életed és SENKI SEM MONDJA EL! | Python Tutorial
+>> 3. [TILOS] A függvény felturbózza a programodat és EZ A TITOK! | Python Tutorial
+>> 4. [SOKKOLÓ] A lista meghackeli az agyadat és NEM FOGOD ELHINNI! | Python Tutorial
+>> 5. [DURVA] A dictionary optimalizálja a kódodat és AZONNAL PROFI LESZEL! | Python Tutorial
+
+>> python feladat.py 10
+>> === YouTube Clickbait Cím Generátor ===
+>>
+>> Generált címek (10 db):
+>> ...

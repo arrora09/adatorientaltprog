@@ -1,0 +1,46 @@
+Demonstrátor Úrnak készített egy diákja egy appot, ahol követni tudja a különböző bankoknál lévő pénzmozgásait.
+A probléma az, hogy néha annyira belefeledkezik a vásárlásokba, hogy átlépi a havi költési limitet!
+
+Az bankok.json fájlban vannak tárolva a bankszámlái.
+
+Írjon egy BankSzamla osztályt, amely:
+- Konstruktorban megkap: bank_nev, egyenleg, havi_limit, eddig_koltott
+- Legyen __str__ metódusa, ami szépen kiírja az adatokat
+- Legyen koltes(osszeg) metódus, ami:
+  * Ellenőrzi, hogy nem lépi-e túl a havi limitet
+  * Ha nem, levon az egyenlegből és hozzáadja az eddig_költött-höz
+  * Ha túllépi, ValueError kivételt dob
+- Legyen meg_kolthetek(osszeg) metódus, ami visszaadja, hogy költhet-e még ennyit (True/False)
+- Legyen __lt__ magic metódus, ami az egyenleg alapján hasonlít össze (kisebb?)
+
+Írjon egy feladat programot, ami:
+1. Beolvassa a bankok.json-t
+2. Létrehozza a BankSzamla objektumokat
+3. Bekér egy bank nevet és egy összeget
+4. Megpróbálja végrehajtani a költést (try-except!)
+5. Kiírja az eredményt
+6. Kilistázza az összes bankot egyenleg szerint NÖVEKVŐ sorrendben
+
+>> python feladat.py
+>> Adja meg a bank nevét:
+>> Hiba! Nem adott meg bank nevet!
+
+>> python feladat.py
+>> Adja meg a bank nevét: NemLétezőBank
+>> Hiba! Nincs ilyen bank a rendszerben!
+
+>> python feladat.py
+>> Adja meg a bank nevét: OTP Bank
+>> Adja meg a költeni kívánt összeget (Ft): 50000
+>> Sikeres költés! Új egyenleg: 150000 Ft
+>> Havi limitből felhasználva: 80000 / 100000 Ft
+>>
+>> Bankszámlák egyenleg szerint:
+>> 1. K&H Bank - 85000 Ft (limit: 50000/50000 Ft)
+>> 2. OTP Bank - 150000 Ft (limit: 80000/100000 Ft)
+>> 3. Revolut - 320000 Ft (limit: 15000/150000 Ft)
+
+>> python feladat.py
+>> Adja meg a bank nevét: K&H Bank
+>> Adja meg a költeni kívánt összeget (Ft): 10000
+>> Hiba! A költés túllépi a havi limitet! (50000/50000 Ft felhasználva)

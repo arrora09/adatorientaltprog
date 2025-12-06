@@ -1,0 +1,31 @@
+## FELADAT 4: Reddit Karma Vadászat
+
+Demonstrátor Úr ráunt a tanításra és inkább karma farmol a Redditen "TeachMaster3000" álnéven.
+Posztokat készít különböző subredditeken, de már el is felejtette, hol milyen sikereket ért el.
+
+A posztok.csv fájlban vannak tárolva a posztjai.
+
+Írjon egy feladat programot, ami:
+1. Beolvassa a CSV fájlt (kivételkezelés!)
+2. Kiszámolja a TELJES karmát (upvotes - downvotes)
+3. Megkeresi azt a subredditet, ahol a legtöbb összkarma van
+4. List comprehension-nel szűri ki azokat a posztokat, ahol a karma > 100
+5. Kiírja a top 3 legjobb posztot karma szerint (sorted custom key-vel!)
+
+Ha nem találja a fájlt:
+>> Hiba! A fájlnév fájl nem található!
+
+>> python feladat.py
+>> === Demonstrátor Úr Reddit Statisztikái ===
+>>
+>> Összes karma: 1511
+>>
+>> Legjobban teljesítő subreddit: r/programmerhumor (1055 karma)
+>>
+>> Népszerű posztok (karma > 100):
+>> - 5 poszt
+>>
+>> Top 3 legjobb poszt:
+>> 1. "When students ask for extra points" - r/programmerhumor - 450 karma
+>> 2. "My code works and I don't know why" - r/programmerhumor - 380 karma
+>> 3. "Teaching Python be like..." - r/learnprogramming - 234 karma

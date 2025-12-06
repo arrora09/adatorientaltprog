@@ -1,0 +1,5 @@
+[02:10] Nézzünk egy példát!
+[04:05] A list comprehension nagyon hasznos...
+[06:15] Ez a rész fontos lesz a vizsgán!
+[08:50] Remek munka!
+[11:30] Viszlát!

@@ -1,0 +1,30 @@
+Demonstrator Ur tegnap este sokat ivott, igy a matek nem megy jol neki most.
+Ma reggelre viszont megigerte, hogy kuld a csoportjanak egy statisztikat a zhrol.
+A zh ki van javitva, az eredmenyek az eredmenyek.json-ben vannak eltarolva (kód és feladatok pontjai).
+Minden feladatban maximum 10 pontot gyűjthettek a diákok. A sikeres felmérőhöz el kellett érniük 21 pontot legalább.
+
+Irjon egy programot, ami ad egy osszesito statisztikat (sum, átlag, median, min, max, szórás) az adott parancssori argumentumban megadott kódhoz,
+valamint a legjobban sikerült feladat sorszámát (több esetén elég 1-et) és azt, hogy sikeresen teljesítették-e a felmérést.
+Ahol előfordulhat tört szám, ott 2 tizedes pontossággal jelenítsünk meg.
+
+A kimenetnek adott bemenetre így kell kinéznie:
+
+>> feladat.py
+>> Hiba! Nem megfelelő argumentum szám!
+
+>> feladat.py kod1 kod2
+>> Hiba! Nem megfelelő argumentum szám!
+
+>> feladat.py nincsilyenkod
+>> Hiba! Nincs ilyen kódú megoldás!
+
+>> feladat.py kod001
+>> Kód: xyz
+>> Összpontszám: ?
+>> Átlag: ?.??
+>> Medián: ?
+>> Minimum pontszám: ?
+>> Maximum pontszám: ?
+>> Szórás: ?.??
+>> Legjobban sikerült feladat sorszáma: ?
+>> Teljesítette? Igen / Nem

@@ -1,0 +1,13 @@
+JELSZÓ GENERÁLÁSI ÚTMUTATÓ
+==========================
+
+Kedvenc szám: 42
+Szabály: Vedd minden 2. karakterét
+
+Keresztnév: Sandor
+Szabály: Fordítsd meg és írd NAGYBETŰVEL
+
+Titkos kód: PoYt3hZo9n
+Szabály: Csak a páros indexű karakterek
+
+Végső formátum: [kedvenc_szam]_[keresztnev]_[titkos_kod]

@@ -1,0 +1,29 @@
+## FELADAT 7: YouTube Felirat Káosz
+
+Demonstrátor Úr megkért néhány diákot, hogy készítsenek feliratokat a Python tutorial videóihoz.
+A diákok elkészítették, de mindegyik más formátumban küldte be az időbélyegeket!
+
+A feliratok mappában vannak a felirat fájlok (felirat1.txt, felirat2.txt, felirat3.txt).
+
+Írjon egy feladat.py programot, ami:
+1. Beolvassa MINDHÁROM felirat fájlt (try-except minden fájlnál!)
+2. Normalizálja az időformátumokat MM:SS vagy HH:MM:SS formára
+3. Összefésüli őket IDŐREND szerint (sorted custom key!)
+4. Kiírja az egyesített feliratot időrendben
+5. Megmondja, hány másodperc az ÖSSZES videóanyag
+
+Ha valami fájlt nem talál, akkor az alábbi kimenetet mutassa:
+>> Figyelmeztetés: fájlnév nem található!
+
+Ha egy sem található:
+>> Hiba! Egyetlen felirat fájl sem olvasható be!
+
+
+>> python feladat.py
+>> Beolvasott feliratok: 3 fájl
+>> Összes feliratsor: ?
+>>
+>> Egyesített feliratok időrendben:
+>> ...
+>>
+>> Teljes videóhossz: ? perc ? másodperc (? mp)

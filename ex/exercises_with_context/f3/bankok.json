@@ -1,0 +1,20 @@
+[
+  {
+    "bank_nev": "OTP Bank",
+    "egyenleg": 200000,
+    "havi_limit": 100000,
+    "eddig_koltott": 30000
+  },
+  {
+    "bank_nev": "K&H Bank",
+    "egyenleg": 85000,
+    "havi_limit": 50000,
+    "eddig_koltott": 50000
+  },
+  {
+    "bank_nev": "Revolut",
+    "egyenleg": 320000,
+    "havi_limit": 150000,
+    "eddig_koltott": 15000
+  }
+]

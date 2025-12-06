@@ -224,9 +224,6 @@ def t2(text: str) -> int:
     print(total_removed)
 
 
-set().update()
-set().union()
-
 if __name__ == "__main__":
     t1()
     t2(TEXT)

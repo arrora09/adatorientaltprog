@@ -1,0 +1,25 @@
+{
+  "prefixek": ["[SOKKOLÓ]", "[TILOS]", "[DURVA]", "[HACKEREK NEM AKARJÁK HOGY TUDD]"],
+  "fonevek": [
+    "A lista",
+    "A dictionary",
+    "A függvény",
+    "A ciklus",
+    "A változó",
+    "A class"
+  ],
+  "igek": [
+    "meghackeli az agyadat",
+    "megváltoztatja az életed",
+    "elrontja a kódodat",
+    "felturbózza a programodat",
+    "optimalizálja a kódodat"
+  ],
+  "kovetkezmenyek": [
+    "és NEM FOGOD ELHINNI!",
+    "és SENKI SEM MONDJA EL!",
+    "és A TANÁROD IS MEGDÖBBEN!",
+    "és AZONNAL PROFI LESZEL!",
+    "és EZ A TITOK!"
+  ]
+}

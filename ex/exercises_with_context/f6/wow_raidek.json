@@ -1,0 +1,110 @@
+[
+  {
+    "raid_id": 1,
+    "raid_nev": "Vault of the Incarnates",
+    "boss_nev": "Eranog",
+    "hossz_perc": 95,
+    "dps": 52000,
+    "boss_killed": true,
+    "difficulty": "Heroic"
+  },
+  {
+    "raid_id": 2,
+    "raid_nev": "Vault of the Incarnates",
+    "boss_nev": "Terros",
+    "hossz_perc": 110,
+    "dps": 45000,
+    "boss_killed": true,
+    "difficulty": "Heroic"
+  },
+  {
+    "raid_id": 3,
+    "raid_nev": "Aberrus, the Shadowed Crucible",
+    "boss_nev": "Kazzara",
+    "hossz_perc": 125,
+    "dps": 48000,
+    "boss_killed": false,
+    "difficulty": "Mythic"
+  },
+  {
+    "raid_id": 4,
+    "raid_nev": "Aberrus, the Shadowed Crucible",
+    "boss_nev": "Rashok",
+    "hossz_perc": 195,
+    "dps": 35000,
+    "boss_killed": false,
+    "difficulty": "Mythic"
+  },
+  {
+    "raid_id": 5,
+    "raid_nev": "Amirdrassil",
+    "boss_nev": "Gnarlroot",
+    "hossz_perc": 105,
+    "dps": 47000,
+    "boss_killed": true,
+    "difficulty": "Heroic"
+  },
+  {
+    "raid_id": 6,
+    "raid_nev": "Amirdrassil",
+    "boss_nev": "Igira the Cruel",
+    "hossz_perc": 140,
+    "dps": 68000,
+    "boss_killed": true,
+    "difficulty": "Heroic"
+  },
+  {
+    "raid_id": 7,
+    "raid_nev": "Amirdrassil",
+    "boss_nev": "Nymue",
+    "hossz_perc": 115,
+    "dps": 55000,
+    "boss_killed": true,
+    "difficulty": "Normal"
+  },
+  {
+    "raid_id": 8,
+    "raid_nev": "Vault of the Incarnates",
+    "boss_nev": "Sennarth",
+    "hossz_perc": 85,
+    "dps": 42000,
+    "boss_killed": true,
+    "difficulty": "Normal"
+  },
+  {
+    "raid_id": 9,
+    "raid_nev": "Amirdrassil",
+    "boss_nev": "Tindral Sageswift",
+    "hossz_perc": 180,
+    "dps": 58000,
+    "boss_killed": true,
+    "difficulty": "Mythic"
+  },
+  {
+    "raid_id": 10,
+    "raid_nev": "Aberrus, the Shadowed Crucible",
+    "boss_nev": "Zskarn",
+    "hossz_perc": 130,
+    "dps": 44000,
+    "boss_killed": true,
+    "difficulty": "Heroic"
+  },
+  {
+    "raid_id": 11,
+    "raid_nev": "Amirdrassil",
+    "boss_nev": "Smolderon",
+    "hossz_perc": 120,
+    "dps": 46000,
+    "boss_killed": false,
+    "difficulty": "Mythic"
+  },
+  {
+    "raid_id": 12,
+    "raid_nev": "Vault of the Incarnates",
+    "boss_nev": "Kurog Grimtotem",
+    "hossz_perc": 90,
+    "dps": 49000,
+    "boss_killed": true,
+    "difficulty": "Normal"
+  }
+]

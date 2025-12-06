@@ -1,0 +1,52 @@
+[
+  {
+    "név": "Lefelé néző kutya",
+    "ismetles": 5,
+    "kaloriaszam": 15
+  },
+  {
+    "név": "Harcos póz",
+    "ismetles": 8,
+    "kaloriaszam": 20
+  },
+  {
+    "név": "Fa póz",
+    "ismetles": 10,
+    "kaloriaszam": 12
+  },
+  {
+    "név": "Kobra póz",
+    "ismetles": 6,
+    "kaloriaszam": 10
+  },
+  {
+    "név": "Gyermek póz",
+    "ismetles": 3,
+    "kaloriaszam": 8
+  },
+  {
+    "név": "Háromszög póz",
+    "ismetles": 6,
+    "kaloriaszam": 18
+  },
+  {
+    "név": "Híd póz",
+    "ismetles": 5,
+    "kaloriaszam": 22
+  },
+  {
+    "név": "Széken ülés",
+    "ismetles": 10,
+    "kaloriaszam": 25
+  },
+  {
+    "név": "Deszka póz",
+    "ismetles": 3,
+    "kaloriaszam": 30
+  },
+  {
+    "név": "Csavart póz",
+    "ismetles": 8,
+    "kaloriaszam": 14
+  }
+]
