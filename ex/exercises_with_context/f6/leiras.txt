@@ -1,4 +1,4 @@
-Demonstrátor Úr ráfüggött a World of Warcraft-ra és már a 15. expansionban is aktívan raidelik.
+Demonstrátor Úr ráfüggött egy meg nem nevezett internetes játékra (...khm,, World of Warcraft) és már a 15. expansionban is aktívan raidelik.
 A guild vezetője kérte, hogy készítsen statisztikát a raid teljesítményükről.
 A raideket egy wow_raidek.json fájlba logolja.
 
