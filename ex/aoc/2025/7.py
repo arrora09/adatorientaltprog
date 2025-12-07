@@ -205,7 +205,6 @@ def t2():
                 if right < len(line):
                     new_paths[right] = new_paths.get(right, 0) + count
             else:
-                # No splitter: continue straight down
                 new_paths[pos] = new_paths.get(pos, 0) + count
 
         paths = new_paths
