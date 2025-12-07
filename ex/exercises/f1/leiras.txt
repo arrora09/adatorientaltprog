@@ -1,9 +1,9 @@
-Demonstrator Ur tegnap este sokat ivott, igy a matek nem megy jol neki most.
-Ma reggelre viszont megigerte, hogy kuld a csoportjanak egy statisztikat a zhrol.
-A zh ki van javitva, az eredmenyek az eredmenyek.json-ben vannak eltarolva (kód és feladatok pontjai).
+Demonstrátor Úr tegnap este sokat ivott, igy a matek nem megy jól neki most.
+Ma reggelre viszont megígérte, hogy küld a csoportjának egy statisztikát a zhról.
+A zh ki van javítva, az eredmények az eredmenyek.json-ben vannak eltárolva (kód és feladatok pontjai).
 Minden feladatban maximum 10 pontot gyűjthettek a diákok. A sikeres felmérőhöz el kellett érniük 21 pontot legalább.
 
-Irjon egy programot, ami ad egy osszesito statisztikat (sum, átlag, median, min, max, szórás) az adott parancssori argumentumban megadott kódhoz,
+írjon egy programot, ami ad egy összesítő statisztikát (sum, átlag, median, min, max, szórás) az adott parancssori argumentumban megadott kódhoz,
 valamint a legjobban sikerült feladat sorszámát (több esetén elég 1-et) és azt, hogy sikeresen teljesítették-e a felmérést.
 Ahol előfordulhat tört szám, ott 2 tizedes pontossággal jelenítsünk meg.
 
