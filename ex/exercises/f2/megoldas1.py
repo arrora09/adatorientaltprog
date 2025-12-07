@@ -1,5 +1,4 @@
 import json
-from typing import List, Dict, Union
 import math
 
 
@@ -20,10 +19,8 @@ def kereses_nev_alapjan(gyakorlatok, nev):
 
 
 def main():
-    """Fő függvény."""
     gyakorlatok = betolt_gyakorlatok()
 
-    # Gyakorlat nevének bekérése
     nev: str = input("Adja meg a gyakorlat nevét: ").strip()
 
     if not nev:

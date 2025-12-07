@@ -1,6 +1,5 @@
 def main():
     try:
-        # Fájl beolvasása
         with open("jelszogeneralas.txt", "r", encoding="utf-8") as f:
             tartalom = f.read()
 
