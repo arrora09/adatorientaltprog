@@ -1,4 +1,4 @@
-Demonstrátor Úr tegnap este sokat ivott, igy a matek nem megy jól neki most.
+Demonstrátor Úr tegnap este sokat ivott, igy a matek nem megy jól neki az este után.
 Ma reggelre viszont megígérte, hogy küld a csoportjának egy statisztikát a zhról.
 A zh ki van javítva, az eredmények az eredmenyek.json-ben vannak eltárolva (kód és feladatok pontjai).
 Minden feladatban maximum 10 pontot gyűjthettek a diákok. A sikeres felmérőhöz el kellett érniük 21 pontot legalább.
