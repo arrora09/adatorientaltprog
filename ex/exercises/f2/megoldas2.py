@@ -44,7 +44,7 @@ def main():
     print("Összes gyakorlat kalóriaégetés szerint:")
     for i, gy in enumerate(rendezett, 1):
         ossz_kal = osszes_kaloria_sorozat(gy)
-        print(f"{i}. {gy['név']} - {ossz_kal} kcal")
+        print(f"{i}. {gy['nev']} - {ossz_kal} kcal")
     print()
 
     #####################################################
@@ -54,7 +54,7 @@ def main():
     gy = legjobb["gyakorlat"]
     ossz_kal_sorozat = osszes_kaloria_sorozat(gy)
     print(
-        f"{gy['név']} - {ossz_kal_sorozat} kcal sorozatonként, {legjobb['sorozatok']} sorozat szükséges (összesen {legjobb['ossz_ismetles']} ismétlés) "
+        f"{gy['nev']} - {ossz_kal_sorozat} kcal sorozatonként, {legjobb['sorozatok']} sorozat szükséges (összesen {legjobb['ossz_ismetles']} ismétlés) "
     )
 
 

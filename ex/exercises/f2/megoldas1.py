@@ -14,7 +14,7 @@ def betolt_gyakorlatok(
 
 
 def kereses_nev_alapjan(gyakorlatok, nev):
-    talalatok = [gy for gy in gyakorlatok if gy["név"] == nev]
+    talalatok = [gy for gy in gyakorlatok if gy["nev"] == nev]
     return talalatok[0] if talalatok else None
 
 
