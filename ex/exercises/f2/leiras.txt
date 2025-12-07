@@ -1,7 +1,7 @@
 Demonstrátor Úr az újévi fogadalmak jegyében elhatározta, hogy lefogyasztja a téli zsírpárnáit.
 Interneten kutatva rátalált néhány jógagyakorlatra, amiket egy gyakorlatok.json fájlba mentett ki.
 Sajnos a pohárköszöntők után már homályos, hogy melyik gyakorlatot hányszor csinálta,
-és egyáltalán elégette-e már annyi kalóriát, amennyi egy decemsejt sajtos pogácsa (450 kcal).
+és egyáltalán elégette-e már annyi kalóriát, amennyi egy nagy sajtos pogácsa (450 kcal).
 
 Írjon egy feladat1 programot, ami:
 1. Bekéri a gyakorlat PONTOS nevét (case-sensitive!)
