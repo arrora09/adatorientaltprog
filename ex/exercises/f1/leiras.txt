@@ -1,4 +1,4 @@
-Demonstrátor Úrnakvolt egy görbe estéje, amiből sokra nem emlékszik.
+Demonstrátor Úrnak volt egy görbe estéje, amiből sokra nem emlékszik.
 Arra viszont igen, hogy reggelre megígérte azt, hogy küld a csoportjának egy statisztikát a zhról.
 A zh ki van javítva, az eredmények az eredmenyek.json-ben vannak eltárolva (kód és feladatok pontjai).
 Minden feladatban maximum 10 pontot gyűjthettek a diákok. A sikeres felmérőhöz el kellett érniük 21 pontot legalább.
