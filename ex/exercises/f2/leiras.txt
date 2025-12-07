@@ -35,7 +35,7 @@ Követelmények:
 
 
 >> feladat2.py
->> Összes gyakorlat kalóriaégetés szerint:
+>> Összes gyakorlat kalóriaégetés szerint csökkenőbe:
 >> 1. Széken ülés - 250 kcal
 >> 2. Harcos póz - 160 kcal
 >> ...
