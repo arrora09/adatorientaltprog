@@ -19,6 +19,8 @@ Követelmények:
 - List comprehension a gyakorlatok szűréséhez/feldolgozásához
 - sorted() függvény custom key-vel a rendezéshez
 
+A programnak képesnek kell lennie lefuttatni mindkét programot a "make" parancs kiadásával!
+
 
 >> python feladat1.py
 >> Adja meg a gyakorlat nevét:
