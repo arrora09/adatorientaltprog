@@ -13,7 +13,7 @@ Az bankok.json fájlban vannak tárolva a bankszámlái.
 - Legyen meg_kolthetek(osszeg) metódus, ami visszaadja, hogy költhet-e még ennyit (True/False)
 - Legyen __lt__ magic metódus, ami az egyenleg alapján hasonlít össze (kisebb?)
 
-Írjon egy feladat programot, ami:
+Írjon egy feladat.py programot, ami:
 1. Beolvassa a bankok.json-t
 2. Létrehozza a BankSzamla objektumokat
 3. Bekér egy bank nevet és egy összeget

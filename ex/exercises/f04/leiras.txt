@@ -5,7 +5,7 @@ Posztokat készít különböző subredditeken, de már el is felejtette, hol mi
 
 A posztok.csv fájlban vannak tárolva a posztjai.
 
-Írjon egy feladat programot, ami:
+Írjon egy feladat.py programot, ami:
 1. Beolvassa a CSV fájlt (kivételkezelés!)
 2. Kiszámolja a TELJES karmát (upvotes - downvotes)
 3. Megkeresi azt a subredditet, ahol a legtöbb összkarma van

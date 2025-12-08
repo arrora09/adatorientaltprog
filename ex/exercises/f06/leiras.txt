@@ -2,7 +2,7 @@ Demonstrátor Úr ráfüggött egy meg nem nevezett internetes játékra (...khm
 A guild vezetője kérte, hogy készítsen statisztikát a raid teljesítményükről.
 A raideket egy wow_raidek.json fájlba logolja.
 
-Írjon egy feladat6 programot numpy használatával, ami:
+Írjon egy feladat.py programot numpy használatával, ami:
 1. Beolvassa a wow_raidek.json-t (kivételkezelés!)
 2. NumPy array-be teszi:
    - A raid időket (percben)
