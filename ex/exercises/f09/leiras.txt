@@ -45,3 +45,4 @@ Használat: python feladat.py <napok_szama>
 >> - Ebből 7+ napos: ?.??%)
 >>
 >> Legrégebbi válaszolatlan email: ? napja (hallgató neve)
+>> Ideje lenne egy emlékeztetőt küldeni nekik!
