@@ -1,0 +1,47 @@
+Demonstrátor Úr küldött emaileket a hallgatóknak a beadandókkal kapcsolatban, de sokan nem válaszoltak.
+Készített egy emailek.json fájlt, ahol nyilvántartja, hogy kinek mikor küldött emailt és ki válaszolt már.
+
+Az emailek.json fájlban vannak az emailek adatai.
+
+Írjon egy feladat.py programot, ami:
+1. Beolvassa az emailek.json-t (kivételkezelés!)
+3. Parancssori argumentumból bekér egy X napszámot
+4. List comprehension-nel kiszűri azokat, ahol:
+   - NEM válaszolt még (valaszolt: false)
+   - X napnál régebbi
+5. Sorted() használatával rendezi őket küldési idő szerint (legrégebbi elől) - ha nincs ilyen email, akkor jelezze azt!
+6. Kiírja az eredményt és statisztikát készít
+
+Használat: python feladat.py <napok_szama>
+
+>> python feladat.py
+>> Hiba! Nem adott meg napszámot paraméterként!
+
+
+>> python feladat.py abc
+>> Hiba! Érvénytelen napszám!
+
+>> python feladat.py 7
+>> === Email Follow-up Manager ===
+>>
+>> Keresés: 7 napnál régebbi, nem válaszolt emailek
+>>
+>> VÁLASZRA VÁRÓ EMAILEK (régebbi mint 7 nap):
+>>
+>> 1. név (email)
+>>    Tárgy: tárgy neve
+>>    Küldve: ? napja
+>>
+>> 2. név (email)
+>>    Tárgy: tárgy neve
+>>    Küldve: ? napja
+>>
+>> ...
+>>
+>> STATISZTIKA:
+>> - Összes email: ?
+>> - Már válaszoltak: ? (?.??%)
+>> - Még nem válaszoltak: ? (?.??%)
+>> - Ebből 7+ napos: ?.??%)
+>>
+>> Legrégebbi válaszolatlan email: ? napja (hallgató neve)

@@ -1,0 +1,72 @@
+[
+  {
+    "nev": "Kovács János",
+    "email": "kovacs.janos@student.uni.hu",
+    "targy": "Beadandó 2 hiányzik",
+    "kuldott": 5,
+    "valaszolt": false
+  },
+  {
+    "nev": "Tóth Mária",
+    "email": "toth.maria@student.uni.hu",
+    "targy": "Konzultáció kérés",
+    "kuldott": 3,
+    "valaszolt": true
+  },
+  {
+    "nev": "Nagy Anna",
+    "email": "nagy.anna@student.uni.hu",
+    "targy": "ZH konzultáció időpont",
+    "kuldott":16,
+    "valaszolt": false
+  },
+  {
+    "nev": "Kiss László",
+    "email": "kiss.laszlo@student.uni.hu",
+    "targy": "Jegy ügye",
+    "kuldott": 18,
+    "valaszolt": true
+  },
+  {
+    "nev": "Szabó Péter",
+    "email": "szabo.peter@student.uni.hu",
+    "targy": "Projekt státusz",
+    "kuldott": 12,
+    "valaszolt": false
+  },
+  {
+    "nev": "Horváth Éva",
+    "email": "horvath.eva@student.uni.hu",
+    "targy": "Hiányzás igazolása",
+    "kuldott": 16,
+    "valaszolt": true
+  },
+  {
+    "nev": "Varga Bence",
+    "email": "varga.bence@student.uni.hu",
+    "targy": "Kód review kérés",
+    "kuldott": 2,
+    "valaszolt": false
+  },
+  {
+    "nev": "Molnár Rita",
+    "email": "molnar.rita@student.uni.hu",
+    "targy": "Extra pont lehetőség",
+    "kuldott": 4,
+    "valaszolt": true
+  },
+  {
+    "nev": "Papp Gábor",
+    "email": "papp.gabor@student.uni.hu",
+    "targy": "Git repository hozzáférés",
+    "kuldott": 10,
+    "valaszolt": false
+  },
+  {
+    "nev": "Simon Eszter",
+    "email": "simon.eszter@student.uni.hu",
+    "targy": "Vizsga időpont egyeztetés",
+    "kuldott": 6,
+    "valaszolt": true
+  }
+]
