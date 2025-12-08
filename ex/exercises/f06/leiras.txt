@@ -21,7 +21,7 @@ A raideket egy wow_raidek.json fájlba logolja.
 5. List comprehension-nel:
    - Megszámolja a sikeres (boss_killed: true) és sikertelen raideket
    - Megszámolja a 3+ órás "marathon" raideket
-   - Kilistázza azokat a boss neveket, ahol a DPS > 50000 volt, rendezve növekvő sorrendben
+   - Kilistázza azokat a boss neveket, ahol a DPS > 50000 volt, növekvő sorrendbe rendezve
 
 Ha nem találja a fájlt:
 >> Hiba! A {fájlnév} fájl nem található!
