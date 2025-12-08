@@ -24,7 +24,7 @@ A raideket egy wow_raidek.json fájlba logolja.
    - Kilistázza azokat a boss neveket, ahol a DPS > 50000 volt
 
 Ha nem találja a fájlt:
->> Hiba! A fájlnév fájl nem található!
+>> Hiba! A {fájlnév} fájl nem található!
 
 Formázza a kimenetet úgy, hogy az alábbit kapja:
 

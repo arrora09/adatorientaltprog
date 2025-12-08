@@ -7,7 +7,7 @@ A jelszogeneralas.txt fájlban van a leírás, hogy hogyan kell kiszámolni.
 
 Írjon egy feladat.py programot, ami:
 1. Beolvassa a jelszogeneralas.txt fájlt
-2. Kinyeri belőle a szükséges számokat és szavakat regex vagy split segítségével
+2. Kinyeri belőle a szükséges számokat és szavakat split segítségével
 3. Alkalmazza a szabályokat:
    - Kedvenc szám: minden 2. karaktere
    - Keresztnév: NAGYBETŰS, fordított sorrend
@@ -17,7 +17,7 @@ A jelszogeneralas.txt fájlban van a leírás, hogy hogyan kell kiszámolni.
 
 
 Ha nem találja a fájlt:
->> Hiba! A fájlnév fájl nem található!
+>> Hiba! A {fájlnév} fájl nem található!
 
 
 >> python feladat.py

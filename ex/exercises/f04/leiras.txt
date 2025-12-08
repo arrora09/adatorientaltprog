@@ -13,7 +13,7 @@ A posztok.csv fájlban vannak tárolva a posztjai.
 5. Kiírja a top 3 legjobb posztot karma szerint (sorted custom key-vel!)
 
 Ha nem találja a fájlt:
->> Hiba! A fájlnév fájl nem található!
+>> Hiba! A {fájlnév} fájl nem található!
 
 >> python feladat.py
 >> === Demonstrátor Úr Reddit Statisztikái ===

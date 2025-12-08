@@ -13,7 +13,7 @@ A feliratok mappában vannak a felirat fájlok (felirat1.txt, felirat2.txt, feli
 5. Megmondja, hány másodperc az ÖSSZES videóanyag
 
 Ha valami fájlt nem talál, akkor az alábbi kimenetet mutassa:
->> Figyelmeztetés: fájlnév nem található!
+>> Figyelmeztetés: {fájlnév} nem található!
 
 Ha egy sem található:
 >> Hiba! Egyetlen felirat fájl sem olvasható be!
