@@ -9,7 +9,7 @@ A posztok.csv fájlban vannak tárolva a posztjai.
 1. Beolvassa a CSV fájlt (kivételkezelés!)
 2. Kiszámolja a TELJES karmát (upvotes - downvotes)
 3. Megkeresi azt a subredditet, ahol a legtöbb összkarma van
-4. List comprehension-nel szűri ki azokat a posztokat, ahol a karma > 100
+4. List comprehension-nel szűrje ki azokat a posztokat, ahol a karma > 100, majd írassa ki hány ilyen poszt található
 5. Kiírja a top 3 legjobb posztot karma szerint (sorted custom key-vel!)
 
 Ha nem találja a fájlt:
@@ -18,12 +18,12 @@ Ha nem találja a fájlt:
 >> python feladat.py
 >> === Demonstrátor Úr Reddit Statisztikái ===
 >>
->> Összes karma: 1511
+>> Összes karma: ?
 >>
->> Legjobban teljesítő subreddit: r/programmerhumor (1055 karma)
+>> Legjobban teljesítő subreddit: subreddit_neve (? karma)
 >>
 >> Népszerű posztok (karma > 100):
->> - 5 poszt
+>> - ? poszt
 >>
 >> Top 3 legjobb poszt:
 >> 1. "When students ask for extra points" - r/programmerhumor - 450 karma
