@@ -64,7 +64,7 @@ def main():
         print(f' "Marathon" raidek (180+ perc): {len(marathon_raidek)}')
         print()
         print("High DPS raidek (50,000+ DPS):")
-        for raid in high_dps_raidek:
+        for raid in sorted(high_dps_raidek, key=lambda x: x["dps"]):
             print(f"- {raid['boss_nev']} ({raid['raid_nev']}) - {raid['dps']:,} DPS")
         print()
         print(f"FIGYELMEZTETÉS: {teljes_ido_ora:.2f} óra raidelt az elmúlt héten.")
