@@ -1,5 +1,7 @@
-Demonstrátor Úr új gépet kapott és háttérképeket akar keresni az r/EarthPorn subredditről.
-Csak olyan képeket akar, amik elég nagyok (minimum felbontás), és le szeretné tölteni az URL listát.
+Demonstrátor Úr új gépet kapott és szeretne keresni egy szép tájas háttérképeket hozzá.
+Viszont, mint minden "lusta informatikus", ahelyett, hogy elkezdené nézegetni a képeket egyesével, ír rá egy programot.
+A r/EarthPorn subredditet ismeri, ahol vannak szép, nagy felbontású tájképek.
+Csak olyan képeket keres, amik elég nagyok (minimum felbontás), és le szeretné tölteni az URL listát.
 
 Írjon egy feladat.py programot, ami:
 1. Requests modullal letölti a Reddit JSON-t: https://www.reddit.com/r/EarthPorn/.json
