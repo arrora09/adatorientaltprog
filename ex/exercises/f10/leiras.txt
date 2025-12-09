@@ -1,0 +1,56 @@
+Demonstrátor Úr új gépet kapott és háttérképeket akar keresni az r/EarthPorn subredditről.
+Csak olyan képeket akar, amik elég nagyok (minimum felbontás), és le szeretné tölteni az URL listát.
+
+Írjon egy feladat.py programot, ami:
+1. Requests modullal letölti a Reddit JSON-t: https://www.reddit.com/r/EarthPorn/.json
+2. Parancssori argumentumból bekér minimum szélességet és magasságot
+3. Feldolgozza a JSON struktúrát és kiszedi a képeket
+4. List comprehension-nel szűri azokat, amik megfelelnek a méretnek
+5. Dictionary-ben tárolja: cím -> URL + felbontás
+6. Sorted()-tal rendezi felbontás szerint (legnagyobb először)
+7. Kiírja az eredményt és elmenti egy wallpapers.txt fájlba
+    Az állomány így nézzen ki:
+
+    Reddit Háttérképek - Minimum {szélesség} x {magasság}
+
+    {sorban a képek, mint a printen}
+
+
+
+Használat: python feladat.py <min_width> <min_height>
+
+>> python feladat.py
+>> Hiba! Nem adott meg megfelelő felbontás paramétereket!
+
+
+>> python feladat.py 1920 1080
+>> === Reddit Háttérkép Vadász ===
+>>
+>> Csatlakozás r/EarthPorn subreddithez...
+>> Sikeres letöltés! (? poszt)
+>>
+>> Keresés: minimum 1920x1080 felbontású képek
+>>
+>> MEGFELELŐ HÁTTÉRKÉPEK:
+>>
+>> 1.{kép neve}
+>>    Felbontás: {kép felbontása}
+>>    URL: {kép url-je}
+>> ...
+>>
+>> Eredmények mentve: wallpapers.txt
+>> ? db új háttérkép lementve!
+
+
+>> python feladat.py 5000 3000
+>> === Reddit Háttérkép Vadász ===
+>>
+>> Csatlakozás r/EarthPorn subreddithez...
+>> Sikeres letöltés! (? poszt)
+>>
+>> Keresés: minimum 5000x3000 felbontású képek
+>>
+>> MEGFELELŐ HÁTTÉRKÉPEK:
+>>
+>> Sajnos nincs ilyen nagy felbontású kép!
+>> Próbáld alacsonyabb értékkel (pl. 1920 1080).

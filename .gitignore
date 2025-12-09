@@ -422,3 +422,4 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm,python,pycharm,pycharm+all
 
+/ex/exercises/f10/wallpapers.txt
