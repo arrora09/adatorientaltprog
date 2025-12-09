@@ -6,7 +6,7 @@ Csak olyan képeket akar, amik elég nagyok (minimum felbontás), és le szeretn
 2. Parancssori argumentumból bekér minimum szélességet és magasságot
 3. Feldolgozza a JSON struktúrát és kiszedi a képeket
 4. List comprehension-nel szűri azokat, amik megfelelnek a méretnek
-5. Dictionary-ben tárolja: cím -> URL + felbontás
+5. Dictionary-ben tárolja: cím + URL + felbontás
 6. Sorted()-tal rendezi felbontás szerint (legnagyobb először)
 7. Kiírja az eredményt és elmenti egy wallpapers.txt fájlba
     Az állomány így nézzen ki:
