@@ -30,7 +30,5 @@ Ha nem találja a fájlt:
 >> 5. [DURVA] A dictionary optimalizálja a kódodat és AZONNAL PROFI LESZEL! | Python Tutorial
 
 >> python feladat.py 10
->> === YouTube Clickbait Cím Generátor ===
->>
 >> Generált címek (10 db):
 >> ...
