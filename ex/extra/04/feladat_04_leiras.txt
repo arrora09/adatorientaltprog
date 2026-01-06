@@ -1,0 +1,17 @@
+FELADAT 4: Szöveg statisztika
+==============================
+
+A text_data.txt fájlban többsoros szöveg található.
+
+Feladat:
+- Olvasd be a szöveget
+- Számold meg az összes sort
+- Keresd meg a leghosszabb sort (karakter szerint)
+- Számold ki az átlagos szóhosszat az egész szövegre
+- Számold meg hány 5 karakternél hosszabb szó van
+
+Kimenet formátum:
+Sorok száma: X
+Leghosszabb sor (Y karakter): "szöveg..."
+Átlagos szóhossz: Z.ZZ karakter
+5+ karakteres szavak: W db

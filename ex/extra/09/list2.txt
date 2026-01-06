@@ -1,0 +1,7 @@
+banana
+date
+fig
+honeydew
+kiwi
+lemon
+grape

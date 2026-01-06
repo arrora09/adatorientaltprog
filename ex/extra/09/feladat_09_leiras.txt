@@ -1,0 +1,19 @@
+FELADAT 9: Fájlok összehasonlítása
+===================================
+
+A list1.txt és list2.txt fájlokban soronként elemek találhatók.
+
+Feladat:
+- Olvasd be mindkét fájlt
+- Határozd meg a közös elemeket (mindkét fájlban szerepel)
+- Határozd meg az egyedi elemeket (csak az egyikben van)
+- Írd ki a common.txt fájlba a közös elemeket ábécé sorrendben
+- Írd ki a unique.txt fájlba az egyedi elemeket ábécé sorrendben
+
+Kimenet a konzolra:
+List1 elemek: X
+List2 elemek: Y
+Közös elemek: Z
+Egyedi elemek: W
+-- common.txt was created
+-- unique.txt was created

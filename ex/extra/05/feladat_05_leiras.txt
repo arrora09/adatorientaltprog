@@ -1,0 +1,19 @@
+FELADAT 5: Log fájl elemzés
+============================
+
+A serverlog fájlban rendszer logok találhatók az alábbi formában:
+[DÁTUM ÓRA] SZINT: üzenet
+
+Szintek: INFO, WARNING, ERROR
+
+Feladat:
+- Olvasd be a log fájlt
+- Számold meg típusonként a bejegyzéseket
+- Írd ki az összes ERROR üzenetet egy errors.txt fájlba
+- Csak az üzenet részét írd ki, szintenként (dátum és szint nélkül)
+
+Kimenet a konzolra:
+INFO: X db
+WARNING: Y db
+ERROR: Z db
+-- errors.txt was created

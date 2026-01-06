@@ -1,0 +1,3 @@
+Nem található a fájl
+Adatbázis kapcsolat megszakadt
+Hitelesítés sikertelen

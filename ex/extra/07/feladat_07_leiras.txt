@@ -1,0 +1,18 @@
+FELADAT 7: Tanulói átlagok számítása
+======================================
+
+A grades.csv fájlban tanulók jegyei találhatók az alábbi formában:
+nev;matek;fizika;info
+
+Feladat:
+- Olvasd be a CSV fájlt (első sor fejléc!)
+- Számítsd ki minden tanuló átlagát
+- Határozd meg a legjobb és legrosszabb átlagot
+- Írd ki a results.txt fájlba növekvő átlag szerint a tanulókat
+- Formátum: Név: átlag (X.XX)
+
+Kimenet a konzolra:
+Legjobb átlag: Név (X.XX)
+Legrosszabb átlag: Név (X.XX)
+Osztályátlag: X.XX
+-- results.txt was created

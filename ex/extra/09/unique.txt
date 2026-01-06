@@ -1,0 +1,6 @@
+apple
+cherry
+elderberry
+honeydew
+kiwi
+lemon

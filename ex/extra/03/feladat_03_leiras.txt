@@ -1,0 +1,16 @@
+FELADAT 3: Prímszámok listája
+==============================
+
+A numbers.txt fájlban soronként számok találhatók.
+
+Feladat:
+- Olvasd be a számokat
+- Határozd meg, hogy mely számok prímek
+- Egy szám prím, ha csak 1-gyel és önmagával osztható
+- 1 nem prím szám
+- Írd ki a prímszámokat növekvő sorrendben
+- Írd ki a prímek összegét is
+
+Kimenet formátum:
+Prímszámok: X, Y, Z, ...
+Prímek összege: SUMA

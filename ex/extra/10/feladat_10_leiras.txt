@@ -1,0 +1,22 @@
+FELADAT 10: Fibonacci számok generálása
+=========================================
+
+A fib_config.txt fájlban két szám található:
+N - hány Fibonacci számot generáljunk
+MIN - minimum érték szűréshez
+
+Feladat:
+- Olvasd be a konfigurációt
+- Generálj N darab Fibonacci számot
+- A Fibonacci sorozat: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+  (minden szám az előző kettő összege)
+- Szűrd ki azokat, amelyek >= MIN
+- Írd ki a fibonacci.txt fájlba a szűrt számokat
+- Számítsd ki a szűrt számok összegét és átlagát
+
+Kimenet a konzolra:
+Generált számok: X db
+Szűrt számok: Y db
+Összeg: Z
+Átlag: W.WW
+-- fibonacci.txt was created

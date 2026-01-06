@@ -1,0 +1,20 @@
+FELADAT 8: Caesar-kódolás
+==========================
+
+A message.txt fájlban egy üzenet található.
+
+Feladat:
+- Olvasd be az üzenetet
+- Implementálj Caesar-kódolást (minden betűt toljunk el N hellyel)
+- Az eltolás értéke: 3
+- Csak az angol ABC kis- és nagybetűit kódold
+- Számokat, írásjeleket és szóközöket ne változtasd
+- a->d, b->e, ..., x->a, y->b, z->c
+- A->D, B->E, ..., X->A, Y->B, Z->C
+- Írd ki a kódolt szöveget az encoded.txt fájlba
+- Írd ki a konzolra az eredeti és kódolt szöveg első 50 karakterét
+
+Kimenet:
+Eredeti: "..."
+Kódolt: "..."
+-- encoded.txt was created

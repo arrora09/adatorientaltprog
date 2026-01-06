@@ -1,0 +1,20 @@
+FELADAT 2: Email címek validálása
+==================================
+
+A users.csv fájlban felhasználói adatok vannak az alábbi formában:
+nev;kor;email;varos
+
+Feladat:
+- Olvasd be a CSV fájlt (az első sor fejléc!)
+- Szűrd ki az érvényes email címeket
+- Érvényes email: tartalmaz @-t, utána van domain (legalább 1 pont)
+- Írd ki egy valid_emails.txt fájlba az érvényes email címeket
+- Minden sort írj ki: név - email formában
+- Írd ki, hogy hány érvényes és hány érvénytelen email volt
+
+Kimenet a konzolra:
+-- reading users.csv
+Érvényes emailek: X
+Érvénytelen emailek: Y
+-- valid_emails.txt was created
+-- done

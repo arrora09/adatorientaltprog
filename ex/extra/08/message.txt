@@ -1,0 +1,4 @@
+Hello World! This is a secret message.
+Python programming is fun and useful.
+The quick brown fox jumps over the lazy dog.
+Numbers like 123 and symbols like @#$ remain unchanged.

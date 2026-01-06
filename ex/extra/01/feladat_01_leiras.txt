@@ -1,0 +1,17 @@
+FELADAT 1: Palindróm szavak keresése
+======================================
+
+A words_palindrome.txt fájlban soronként szavak találhatók.
+
+Feladat:
+- Találd meg azokat a szavakat, amelyek palindrómok (visszafelé olvasva is ugyanaz)
+- Csak azokat számold, amelyek legalább 4 karakter hosszúak
+- Írd ki, hogy hány ilyen szó van
+- Írd ki a 3 leghosszabb palindrómot
+
+Kimenet formátum:
+Palindrómok száma: X
+Leghosszabbak:
+- szó1 (hossz: Y)
+- szó2 (hossz: Z)
+- szó3 (hossz: W)

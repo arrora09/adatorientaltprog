@@ -1,0 +1,7 @@
+A Python egy nagyon népszerű programozási nyelv.
+Könnyű megtanulni és sokoldalú.
+Használják adatelemzésre, webfejlesztésre.
+Mesterséges intelligencia területén is.
+Ez egy rövid sor.
+Ez viszont egy jóval hosszabb sor, amely több szót és karaktert tartalmaz mint a többi.
+Egyszerű szintaxis.

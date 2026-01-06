@@ -1,0 +1,21 @@
+FELADAT 6: Telefonszámok formázása
+===================================
+
+A contacts.txt fájlban névjegyek vannak az alábbi formában:
+Név: telefonszám
+
+A telefonszámok különböző formában vannak (space-el, kötőjellel, stb.)
+
+Feladat:
+- Olvasd be a névjegyeket
+- Távolíts el minden nem-számjegyet a telefonszámokból
+- Ellenőrizd, hogy a telefonszám pontosan 11 számjegyből áll-e
+- Formázd a számokat: +36-XX-XXX-XXXX formátumra
+- Írd ki a formatted_contacts.txt fájlba a formázott névjegyeket
+- Csak az érvényes számokat írd ki (11 jegyű)
+
+Kimenet a konzolra:
+Összesen: X névjegy
+Érvényes: Y névjegy
+Érvénytelen: Z névjegy
+-- formatted_contacts.txt was created
